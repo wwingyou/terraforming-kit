@@ -21,5 +21,7 @@ echo 'export PATH="$HOME/neovim/bin:$PATH"' >> "$RC"
 
 cat $DIR/bash_config >> "$RC"
 
+rm $HOME/.tmux.conf
 ln -s $DIR/tmux.conf $HOME/.tmux.conf
+rm -rf $HOME/.config/nvim
 ln -s $DIR/nvim $HOME/.config/nvim
