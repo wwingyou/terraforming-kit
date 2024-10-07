@@ -1,9 +1,12 @@
 #!/bin/bash
 
 # Install neovim
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
-sudo rm -rf /opt/nvim
-sudo tar -C /opt -xzf nvim-linux64.tar.gz
+sudo apt install ninja-build gettext cmake unzip curl
+git clone https://github.com/neovim/neovim
+cd neovim
+make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=$HOME/neovim"
+get checkout stable
+sudo make install
 
 # Configure shell
 RC="$HOME/.bashrc"
@@ -13,4 +16,4 @@ if [ ! -f "$RC" ]; then
 fi
 echo '' >> "$RC"
 echo '# neovim path' >> "$RC"
-echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >> "$RC"
+echo 'export PATH="$HOME/neovim/bin:$PATH"' >> "$RC"
