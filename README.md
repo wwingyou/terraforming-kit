@@ -17,7 +17,7 @@ source ~/.bashrc
 - nnn
 - fzf
 
-# Features
+## Features
 
 - terminal-integrated `fzf` to find files and previous command faster
 - navigate between `nvim` and other `tmux` planes with `CTRL + h,j,k,l` key bindings
