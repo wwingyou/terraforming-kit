@@ -1,5 +1,7 @@
 
 # fzf shell integration
+export PATH="$HOME/fzf:$PATH"
+
 eval "$(fzf --bash)"
 
 # CTRL-Y to copy the command into clipboard using pbcopy
