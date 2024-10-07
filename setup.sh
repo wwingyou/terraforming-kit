@@ -20,3 +20,5 @@ echo '# neovim path' >> "$RC"
 echo 'export PATH="$HOME/neovim/bin:$PATH"' >> "$RC"
 
 cat $DIR/bash_config >> "$RC"
+
+ln -s $DIR/tmux.conf $HOME/.tmux.conf
