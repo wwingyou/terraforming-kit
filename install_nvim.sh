@@ -11,4 +11,6 @@ if [ ! -f "$RC" ]; then
   echo '[INFO] no .bashrc found. create one.'
   touch "$RC"
 fi
+echo '' >> "$RC"
+echo '# neovim path' >> "$RC"
 echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >> "$RC"

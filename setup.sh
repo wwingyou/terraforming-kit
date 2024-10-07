@@ -3,7 +3,7 @@
 DIR="$(cd "$(dirname "$0")" && pwd)"
 
 $DIR/install_nvim.sh
-apt-get install fzf
-apt-get install tree
-apt-get install tmux
-apt-get install nnn
+sudo apt-get install fzf
+sudo apt-get install tree
+sudo apt-get install tmux
+sudo apt-get install nnn
