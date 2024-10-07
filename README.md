@@ -4,6 +4,8 @@ Everything you need to terraform a brand new remote instance.
 
 ## Install
 
+Just clone this repo on the remote instance and run the following commands.
+
 ```bash
 ./setup.sh
 source ~/.bashrc
