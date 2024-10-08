@@ -15,9 +15,9 @@ if [ ! -f "$RC" ]; then
   touch "$RC"
 fi
 
-echo '' >> "$RC"
-echo '# neovim path' >> "$RC"
-echo 'export PATH="$HOME/neovim/bin:$PATH"' >> "$RC"
+# echo '' >> "$RC"
+# echo '# neovim path' >> "$RC"
+# echo 'export PATH="$HOME/neovim/bin:$PATH"' >> "$RC"
 
 cat $DIR/bash_config >> "$RC"
 

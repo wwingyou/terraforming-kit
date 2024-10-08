@@ -1,6 +1,6 @@
 
 # fzf shell integration
-export PATH="$HOME/fzf:$PATH"
+# export PATH="$HOME/fzf:$PATH"
 
 eval "$(fzf --bash)"
 
