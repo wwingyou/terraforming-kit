@@ -21,8 +21,8 @@ source ~/.bashrc
 
 ## Features
 
-- terminal-integrated `fzf` to find files and previous command faster
+- terminal-integrated `fzf` to find files and previous commands faster
 - navigate between `nvim` and other `tmux` planes with `CTRL + h,j,k,l` key bindings
-- easily view directory structer with `tree`
-- easily navigate file tree with `nnn`
+- easily view directory structure with `tree`
+- easily move, copy, delete files with `nnn`
 - easily edit files with `nvim`
