@@ -9,6 +9,7 @@ Just clone this repo on the remote instance and run the following commands.
 ```bash
 ./setup.sh
 source ~/.bashrc
+./cleanup.sh
 ```
 
 ## Package
